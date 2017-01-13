@@ -14,7 +14,8 @@ The ErrorService has a function `announceError(title: string, description: strin
 
 | Severity | Bootstrap Class |
 | -------- | --------------- |
-| > 2 | info |
+| > 1 | success |
+| 1 | info |
 | 2 | warning |
 | >2 | danger |
 
