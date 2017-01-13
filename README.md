@@ -6,11 +6,11 @@ This is a simple Angular2 "module" for handling displaying errors for the user. 
 
 ## Installation
 
-Drop into place and add ErrorService to your providers and ErrorComponent to your declarations.  Then drop the <app-error></app-error> someone higher up in your templates.  This requires bootstrap4 for proper styling.
+Drop into place and add ErrorService to your providers and ErrorComponent to your declarations.  Then drop the `<app-error></app-error>` somewhere higher up in your templates.  This requires bootstrap4 for proper styling.
 
 ## Usage
 
-The ErrorService has a function announceError(title: string, description: string, severity: number).  Calling this function from anywhere will cause a new error to appear with color determined by the severity.
+The ErrorService has a function `announceError(title: string, description: string, severity: number)`.  Calling this function from anywhere will cause a new error to appear with color determined by the severity.
 
 | Severity | Bootstrap Class |
 | -------- | --------------- |
