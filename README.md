@@ -19,3 +19,6 @@ The ErrorService has a function `announceError(title: string, description: strin
 | 2 | warning |
 | >2 | danger |
 
+## Todo
+
+Package this up and upload to NPM....
